@@ -90,6 +90,13 @@ const FileViewer = () => {
           onChange={handleFileUpload}
         />
       </div>
+      <div >
+        <p>
+          The files uploaded will be used for file search demo.<br/>
+          To search against demo airbnb data, you can search for "What is the checkout time?" or "what is the wifi password?"<br/>
+          "What is the weather in San Francisco?"<br/>
+        </p>
+      </div>
     </div>
   );
 };
